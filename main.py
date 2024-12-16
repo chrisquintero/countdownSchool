@@ -57,7 +57,7 @@ def countdown_to_last_day():
     seconds = seconds_left % 60
 
     # Print the countdown
-    print(f"Countdown to the last day of school: {weekdays_left} weekdays (excluding holidays and breaks), {days} days, {hours} hours, {minutes} minutes, {seconds} seconds")
+    print(f"Countdown to the last day of school: {weekdays_left} School days (excluding holidays and breaks), {days} days, {hours} hours, {minutes} minutes, {seconds} seconds")
 
 # Run the countdown function
 countdown_to_last_day()
